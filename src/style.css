@@ -369,7 +369,13 @@ body {
 
 @media screen and (max-width: 1120px) and (max-device-width: 560px) {
   html {
-    font-size: 2.2vw;
+    font-size: 2.6vw;
+  }
+  body {
+    min-width: 35rem;
+  }
+  .site {
+    margin: 1rem 0;
   }
 }
 
