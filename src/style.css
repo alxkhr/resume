@@ -37,8 +37,6 @@ html {
 body {
   display: flex;
   justify-content: center;
-  min-width: 80rem;
-  min-height: 120rem;
 }
 
 .weak {
@@ -101,6 +99,9 @@ body {
   height: 11rem;
   border-radius: 5.5rem;
   border: 1px solid #f26337;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .author {
@@ -115,7 +116,7 @@ body {
 
 .labelled-list {
   display: flex;
-  padding-bottom: 1em;
+  margin: 0.5rem 0;
   align-items: baseline;
 }
 
@@ -147,8 +148,7 @@ body {
 .portrait {
   height: 10rem;
   width: 10rem;
-  border-radius: 5.4rem;
-  border: 0.4rem solid #fff;
+  border-radius: 5rem;
 }
 
 .contact-address {
@@ -161,7 +161,7 @@ body {
 .website {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 0.5rem;
 }
 
 .section {
@@ -310,6 +310,61 @@ body {
   bleed: 0;
   marks: none;
   margin: 6mm 12.5mm;
+}
+
+@media screen and (min-width: 1120px) {
+  body {
+    min-height: 120rem;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  body {
+    min-width: 41rem;
+  }
+  .site {
+    flex: 0 0 35rem;
+    height: auto;
+  }
+  .body {
+    height: auto;
+    margin-top: 2.5rem;
+    flex-wrap: nowrap;
+  }
+  .header {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .header-side {
+    flex: 1 0 auto;
+  }
+  .title-side {
+    width: 100%;
+    height: 7rem;
+  }
+  .contact-address {
+    align-items: flex-end;
+  }
+  .labelled-list {
+    width: 19rem;
+  }
+  .footer {
+    height: auto;
+    margin-top: 4rem;
+    padding: 0;
+  }
+  .section:not(:first-of-type) {
+    margin-top: 2.5rem;
+  }
+  .about {
+    order: -3;
+  }
+  .work {
+    order: -2;
+  }
+  .education {
+    order: -1;
+  }
 }
 
 @media print {

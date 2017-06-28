@@ -9,7 +9,7 @@
   <body>
     <div class="site">
       <div class="header">
-        <div class="header-side">
+        <div class="header-side title-side">
           <h1 class="author">{{resume.basics.name}}</h1>
           <p>{{resume.basics.label}}</p>
         </div>
@@ -35,13 +35,13 @@
               </ul>
             </div>
           </div>
-          <div class="website">
-            <a href="https://www.{{resume.basics.website}}">{{resume.basics.website}}</a>
-          </div>
+        </div>
+        <div class="website">
+          <a href="https://www.{{resume.basics.website}}">{{resume.basics.website}}</a>
         </div>
       </div>
       <div class="body">
-        <div class="section">
+        <div class="section about">
           <h2 class="label">{{labels.profile}}</h2>
           <p class="next-element">"{{resume.basics.summary}}"</p>
           <ul class="profiles next-element">
@@ -104,7 +104,7 @@
             {{/each}}
           </ul>
         </div>
-        <div class="section">
+        <div class="section work">
           <h2 class="label">{{labels.work}}</h2>
           <ul>
             <svg class="timeline-line" width="1.5rem" height="100%" viewBox="0 0 24 24" preserveAspectRatio="none">
@@ -128,7 +128,7 @@
             {{/each}}
           </ul>
         </div>
-        <div class="section">
+        <div class="section education">
           <h2 class="label">{{labels.education}}</h2>
           <ul>
             <svg class="timeline-line" width="1.5rem" height="100%" viewBox="0 0 24 24" preserveAspectRatio="none">
