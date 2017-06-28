@@ -45,42 +45,42 @@
   "work": [
     {
       "company": "MobileX AG",
+      "at": "bei",
       "position": "UI/UX Designer & Developer",
       "website": "https://www.mobilexag.de",
-      "startDate": "Oktober 2014",
-      "endDate": "September 2017",
+      "date": "Von Oktober 2014 bis September 2017",
       "summary": "Web-basierte App-Entwicklung, Technologie Evaluierung und Schulungen, UI/UX Design und Konzeption."
     },
     {
       "company": "MobileX AG",
+      "at": "bei",
       "position": "Werkstudent",
       "website": "https://www.mobilexag.de",
-      "startDate": "Februar 2012",
-      "endDate": "September 2014",
+      "date": "Von Februar 2012 bis September 2014",
       "summary": "Android Entwicklung und Interaction Design."
     },
     {
       "company": "Ludwig-Maximilians-Universität, Medieninformatik",
+      "at": "an der",
       "position": "Studentische Hilfskraft",
       "website": "http://www.medien.ifi.lmu.de/",
-      "startDate": "Juli 2010",
-      "endDate": "Februar 2011",
+      "date": "Von Juli 2010 bis Februar 2011",
       "summary": "Kursbetreuung und -leitung, Print Design, Prototyping, Web Design und Entwicklung."
     },
     {
       "company": "punchin.pictures",
+      "at": "bei",
       "position": "Praktikant",
       "website": "http://www.punchinpictures.de/",
-      "startDate": "August 2007",
-      "endDate": "Januar 2008",
+      "date": "Von August 2007 bis Januar 2008",
       "summary": "Print und Web-Design, Video Postproduktion, Visual FX."
     },
     {
       "company": "C3 | wortundform",
+      "at": "bei",
       "position": "Praktikant",
       "website": "http://wortundform.de/",
-      "startDate": "Juli 2005",
-      "endDate": "September 2005",
+      "date": "Von Juli 2005 bis September 2005",
       "summary": "Print Design, Druckvorstufe, Technisches Zeichnen."
     }
   ],

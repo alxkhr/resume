@@ -95,10 +95,10 @@
               </h3>
               <p>{{description}}</p>
               {{#if code}}
-              <p class="weak">{{labels.code}}: <a target="_blank" href="http://{{code}}">{{code}}</a></p>
+              <p class="weak">Code: <a target="_blank" href="http://{{code}}">{{code}}</a></p>
               {{/if}}
               {{#if design}}
-              <p class="weak">{{labels.design}}: <a target="_blank" href="http://{{design}}">{{design}}</a></p>
+              <p class="weak">Design: <a target="_blank" href="http://{{design}}">{{design}}</a></p>
               {{/if}}
             </li>
             {{/each}}
@@ -120,8 +120,8 @@
                 <circle r="3" cy="12" cx="12" fill="#323232" />
               </svg>
               <div class="timeline-item-content">
-                <p class="red">{{labels.from}} {{startDate}} {{labels.to}} {{endDate}}</p>
-                <p>{{position}} {{labels.at}} <a href="{{website}}">{{company}}</a></p>
+                <p class="red">{{date}}</p>
+                <p>{{position}} {{at}} <a href="{{website}}">{{company}}</a></p>
                 <p class="weak">{{summary}}</p>
               </div>
             </li>
