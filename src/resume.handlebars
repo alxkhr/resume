@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i|Quicksand:400,700" rel="stylesheet">
+    <title>{{resume.basics.name}}</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="site">
+      <div class="header">
+        <div class="header-side">
+          <h1 class="author">{{resume.basics.name}}</h1>
+          <p>{{resume.basics.label}}</p>
+        </div>
+        <div class="header-center">
+          <img class="portrait" src="{{resume.basics.picture}}" alt="Portrait" />
+        </div>
+        <div class="header-side">
+          <div class="contact-address">
+            <div class="labelled-list weak">
+              <h2 class="list-label label">{{labels.address}}</h2>
+              <ul class="labelled">
+                <li>{{resume.basics.location.address}}</li>
+                <li>{{resume.basics.location.postalCode}}&nbsp;{{resume.basics.location.city}}</li>
+                <li>{{resume.basics.location.countryCode}},&nbsp;{{resume.basics.location.region}}</li>
+              </ul>
+            </div>
+            <div class="labelled-list weak">
+              <h2 class="list-label label">{{labels.contact}}</h2>
+              <ul class="labelled">
+                <li>{{resume.basics.phone}}</li>
+                <li><a href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a></li>
+                <li><a href="https://twitter.com/{{resume.basics.twitter}}">@{{resume.basics.twitter}}</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="website">
+            <a href="https://www.{{resume.basics.website}}">{{resume.basics.website}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="section">
+          <h2 class="label">{{labels.profile}}</h2>
+          <p class="next-element">"{{resume.basics.summary}}"</p>
+          <ul class="profiles next-element">
+            {{#each resume.basics.profiles}}
+            <li class="profile weak">
+              <a href="{{url}}">
+                <image style="width: 5rem; height: 5rem;" src="{{icon}}" alt="Icon for {{network}}"/>
+                <p>{{network}}<br/>({{username}})</p>
+              </a>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="section">
+          <h2 class="label">{{labels.skills}}</h2>
+          {{#each resume.skills}}
+          <h3 class="next-element red">{{name}}</h3>
+          <p>
+            {{#each keywords}}
+            <span class="{{level}} skill">{{keyword}}{{drawSkillLevel level}}</span>
+            {{/each}}
+          </p>
+          {{/each}}
+          <h3 class="next-element red">{{labels.languages}}</h3>
+          <p>
+            {{#each resume.languages}}
+            <span class="{{level}} skill">{{name}}{{drawSkillLevel level}}</span>
+            {{/each}}
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="label">{{labels.buzzwords}}</h2>
+          <ul class="buzzwords">
+            {{#each resume.buzzwords ~}}
+            <li class="buzzword">{{this}}</li>
+            {{~/each}}
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="label">{{labels.sideProjects}}</h2>
+          <ul class="project-list">
+            {{#each resume.sideProjects}}
+            <li>
+              <p class="red" style="float: right;">{{date}}<p>
+              <h3>
+                {{#if website}}
+                <a target="_blank" href="http://{{website}}">{{name}}</a>
+                {{else}}
+                {{name}}
+                {{/if}}
+              </h3>
+              <p>{{description}}</p>
+              {{#if code}}
+              <p class="weak">{{labels.code}}: <a target="_blank" href="http://{{code}}">{{code}}</a></p>
+              {{/if}}
+              {{#if design}}
+              <p class="weak">{{labels.design}}: <a target="_blank" href="http://{{design}}">{{design}}</a></p>
+              {{/if}}
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="section">
+          <h2 class="label">{{labels.work}}</h2>
+          <ul>
+            <svg class="timeline-line" width="1.5rem" height="100%" viewBox="0 0 24 24" preserveAspectRatio="none">
+              <line x1="12" y1="0" x2="12" y2="24" stroke-width="1.5" stroke="#323232"/>
+            </svg>
+            <svg class="timeline-arrow" width="1.5rem" height="0.5rem" viewBox="0 0 24 8">
+              <polygon points="9,6 12,0 15,6" stroke-width="0" fill="#323232"/>
+            </svg>
+            {{#each resume.work}}
+            <li class="timeline-item">
+              <svg class="timeline-point" viewBox="0 0 24 24" height="1.5rem" width="1.5rem">
+                <circle r="6" cy="12" cx="12" fill="#ffffff" />
+                <circle r="3" cy="12" cx="12" fill="#323232" />
+              </svg>
+              <div class="timeline-item-content">
+                <p class="red">{{labels.from}} {{startDate}} {{labels.to}} {{endDate}}</p>
+                <p>{{position}} {{labels.at}} <a href="{{website}}">{{company}}</a></p>
+                <p class="weak">{{summary}}</p>
+              </div>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="section">
+          <h2 class="label">{{labels.education}}</h2>
+          <ul>
+            <svg class="timeline-line" width="1.5rem" height="100%" viewBox="0 0 24 24" preserveAspectRatio="none">
+              <line x1="12" y1="0" x2="12" y2="24" stroke-width="1.5" stroke="#323232"/>
+            </svg>
+            <svg class="timeline-arrow" width="1.5rem" height="0.5rem" viewBox="0 0 24 8">
+              <polygon points="9,6 12,0 15,6" stroke-width="0" fill="#323232"/>
+            </svg>
+            {{#each resume.education}}
+            <li class="timeline-item">
+              <svg class="timeline-point" viewBox="0 0 24 24" height="1.5rem" width="1.5rem">
+                <circle r="12" cy="12" cx="12" fill="#ffffff" />
+                <text x="12" y="17" text-anchor="middle" font-size="16">{{gpa}}</text>
+              </svg>
+              <div class="timeline-item-content">
+                <p class="red">Abgeschlossen im {{date}}</p>
+                <p>{{studyType}}&nbsp;{{area}} an der {{institution}}</p>
+                <p class="weak">Abschlussarbeit: {{thesis}}</p>
+              </div>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="section">
+          <h2 class="label">{{labels.hobbies}}</h2>
+          <ul class="icon-list">
+            {{#each resume.interests}}
+            <li class="labelled-icon">
+              <image style="width: 5rem; height: 5rem;" src="{{icon}}" alt="Icon for {{name}}"/>
+              <p class="weak small icon-label">{{name}}</p>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+        {{#each resume.references}}
+        <div class="labelled-text">
+          <p class="text-label">
+            <span class="label">{{name}}</span><br/>
+            <span class="weak">{{position}}</span>
+          </p>
+          <p class="labelled">"{{reference}}"</p>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </body>
+</html>

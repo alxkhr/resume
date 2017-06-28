@@ -1,0 +1,23 @@
+{
+  "name": "resume-json-handlebars",
+  "version": "1.0.0",
+  "description": "Build my own resume, using handlebars and postcss. Implementation inspired by jsonresume, design inspired by Fernando Baez.",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "node src/clean.js",
+    "assets": "node src/copyAssets.js",
+    "html": "node src/createHtml.js",
+    "css": "postcss src/style.css -o dist/style.css",
+    "build": "npm run clean && npm run assets && npm run html && npm run css"
+  },
+  "author": "Alexander Kehr",
+  "license": "MIT",
+  "dependencies": {
+    "delete": "^1.0.1",
+    "handlebars": "^4.0.10",
+    "postcss-cli": "^4.1.0",
+    "postcss-cssnext": "^2.11.0",
+    "precss": "^1.4.0",
+    "recursive-copy": "^2.0.6"
+  }
+}
