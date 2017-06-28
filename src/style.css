@@ -75,13 +75,13 @@ body {
 
 .footer {
   height: 7rem;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   padding: 0 8.8rem;
 }
 
 .body {
   height: 90rem;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
