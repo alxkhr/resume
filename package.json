@@ -6,9 +6,10 @@
   "scripts": {
     "clean": "node src/clean.js",
     "assets": "node src/copyAssets.js",
-    "html": "node src/createHtml.js",
+    "html:de": "node src/createHtml.js",
+    "html:en": "node src/createEnglishHtml.js",
     "css": "postcss src/style.css -o dist/style.css",
-    "build": "npm run clean && npm run assets && npm run html && npm run css"
+    "build": "npm run clean && npm run assets && npm run html:de && npm run html:en && npm run css"
   },
   "author": "Alexander Kehr",
   "license": "MIT",

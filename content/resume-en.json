@@ -1,0 +1,419 @@
+{
+  "basics": {
+    "name": "Alexander Kehr",
+    "label": "Frontend Developer & UI/UX Designer",
+    "picture": "assets/alxkhr_cv_monochrom_50mm_300dpi.png",
+    "email": "alex@alexanderkehr.de",
+    "phone": "+49 1575 8158458",
+    "website": "alexanderkehr.de",
+    "twitter": "alexanderkehr",
+    "summary": "I have experienced that designers and developers tend to speak two different languages. The resulting misunderstandings slow down the process from the concept to the implementation. I'm Alex, a rabid designer and creative developer - or vice versa. Knowing both languages, i am eager to deal with interdisciplinary tasks like the conception and implementation of user interfaces.",
+    "location": {
+      "address": "Valleystraße 39",
+      "postalCode": "81371",
+      "city": "Munich",
+      "countryCode": "DE",
+      "region": "Bavaria"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "alxkhr",
+        "url": "https://www.github.com/alxkhr",
+        "icon": "assets/icons/github.svg"
+      },
+      {
+        "network": "Behance",
+        "username": "alxkhr",
+        "url": "https://www.github.com/alxkhr",
+        "icon": "assets/icons/behance.svg"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "alexander-kehr",
+        "url": "https://www.github.com/alxkhr",
+        "icon": "assets/icons/linkedin.svg"
+      },
+      {
+        "network": "Instagram",
+        "username": "alexakeh",
+        "url": "https://www.github.com/alxkhr",
+        "icon": "assets/icons/instagram.svg"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "MobileX AG",
+      "at": "at",
+      "position": "UI/UX Designer & Developer",
+      "website": "https://www.mobilexag.de",
+      "date": "From October 2014 to September 2017",
+      "summary": "Web-based app development, evaluation of tech stacks and trainings, UI/UX design and conception."
+    },
+    {
+      "company": "MobileX AG",
+      "at": "at",
+      "position": "Working student",
+      "website": "https://www.mobilexag.de",
+      "date": "From February 2012 to September 2014",
+      "summary": "Android development and interaction design."
+    },
+    {
+      "company": "Ludwig-Maximilians-Universität, Media Informatics",
+      "at": "at the",
+      "position": "Student assistant",
+      "website": "http://www.medien.ifi.lmu.de/",
+      "date": "From July 2010 to February 2011",
+      "summary": "Course supervision and administration, prototyping, print design, web design and development."
+    },
+    {
+      "company": "punchin.pictures",
+      "at": "at",
+      "position": "Trainee",
+      "website": "http://www.punchinpictures.de/",
+      "date": "From August 2007 to January 2008",
+      "summary": "Print and web design, video postproduction, visual FX."
+    },
+    {
+      "company": "C3 | wortundform",
+      "at": "at",
+      "position": "Trainee",
+      "website": "http://wortundform.de/",
+      "date": "From July 2005 to September 2005",
+      "summary": "Print design, prepress, drafting."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ludwig-Maximilians-Universität",
+      "area": "Media Informatics",
+      "studyType": "B.Sc.",
+      "date": "April 2014",
+      "gpa": "1.6",
+      "thesis": "Authentication on Mobile Devices: Security by Randomization"
+    },
+    {
+      "institution": "Munich University of Applied Sciences",
+      "area": "Communication Design",
+      "studyType": "B.A.",
+      "date": "September 2009",
+      "gpa": "1.5",
+      "thesis": "Navigation when Cycling"
+    }
+  ],
+  "sideProjects": [
+    {
+      "name": "lostmyjournal.de",
+      "website": "react-d3-travel-blog.netlify.com",
+      "code": "www.github.com/alxkhr/react-d3-travel-blog",
+      "date": "ongoing",
+      "description": "Design and development of a travel blog. Based on React, refined with D3 elements.",
+      "image": "assets/lostmyjournal.png"
+    },
+    {
+      "name": "alexanderkehr.de",
+      "website": "www.alexanderkehr.de",
+      "code": "www.github.com/alxkhr/alexanderkehr.de",
+      "date": "May 2017",
+      "description": "Redevelopment of my own homepage without any scripts. Pure HTML, SVG and CSS. Mustache and PostCSS for generation.",
+      "image": "assets/alexanderkehr.jpg"
+    },
+    {
+      "name": "von-seidlein-roehrl.de",
+      "website": "www.von-seidlein-roehrl.de",
+      "code": "www.github.com/alxkhr/architecture-portfolio-website",
+      "date": "April 2017",
+      "description": "Design and development of a portfolio webseite for architects, based on React and AVA for testing.",
+      "image": "assets/seidlein-roehrl.png"
+    },
+    {
+      "name": "conqr",
+      "design": "www.behance.net/gallery/47957445/conqr",
+      "date": "January 2017",
+      "description": "Game design und development in Java with libGDX. Using Blender and Photoshop for design process.",
+      "image": "assets/conqr.png"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web development",
+      "level": "different",
+      "keywords": [
+        {
+          "keyword": "ES2015/16/17",
+          "level": "master"
+        },
+        {
+          "keyword": "React",
+          "level": "master"
+        },
+        {
+          "keyword": "HTML5",
+          "level": "master"
+        },
+        {
+          "keyword": "SVG",
+          "level": "master"
+        },
+        {
+          "keyword": "CSS3",
+          "level": "master"
+        },
+        {
+          "keyword": "Node",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Babel",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Mobx",
+          "level": "advanced"
+        },
+        {
+          "keyword": "mustache",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Webpack",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Mocha/Sinon/Chai",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Enzyme",
+          "level": "advanced"
+        },
+        {
+          "keyword": "SASS",
+          "level": "advanced"
+        },
+        {
+          "keyword": "PostCSS",
+          "level": "advanced"
+        },
+        {
+          "keyword": "CSS Modules",
+          "level": "advanced"
+        },
+        {
+          "keyword": "React Native",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Redux",
+          "level": "beginner"
+        },
+        {
+          "keyword": "JQuery",
+          "level": "beginner"
+        },
+        {
+          "keyword": "D3",
+          "level": "beginner"
+        },
+        {
+          "keyword": "SystemJS",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Jest",
+          "level": "beginner"
+        },
+        {
+          "keyword": "AVA",
+          "level": "beginner"
+        }
+      ]
+    },
+    {
+      "name": "Further development",
+      "level": "different",
+      "keywords": [
+        {
+          "keyword": "Java",
+          "level": "master"
+        },
+        {
+          "keyword": "Android",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Cordova",
+          "level": "advanced"
+        },
+        {
+          "keyword": "SQL",
+          "level": "advanced"
+        },
+        {
+          "keyword": "PHP",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Python",
+          "level": "beginner"
+        }
+      ]
+    },
+    {
+      "name": "Gestaltung",
+      "level": "different",
+      "keywords": [
+        {
+          "keyword": "Photoshop CC",
+          "level": "master"
+        },
+        {
+          "keyword": "Inkscape",
+          "level": "master"
+        },
+        {
+          "keyword": "After Effects CC",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Illustrator CC",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Pencil",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Gimp",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Blender",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Sketch",
+          "level": "beginner"
+        },
+        {
+          "keyword": "InVision",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Axure",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Experience Design CC",
+          "level": "beginner"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "level": "master"
+    },
+    {
+      "name": "English",
+      "level": "advanced"
+    },
+    {
+      "name": "Spanish",
+      "level": "beginner"
+    },
+    {
+      "name": "French",
+      "level": "beginner"
+    }
+  ],
+  "buzzwords": [
+    "Frontend",
+    "User Interface",
+    "Web development",
+    "Software architecture",
+    "Test-driven development",
+    "Mobile",
+    "Interaction",
+    "Prototyping",
+    "User Experience",
+    "User-centered",
+    "Atomic",
+    "Responsive",
+    "Styleguide",
+    "Corporate Design",
+    "Icons",
+    "2D Animation",
+    "Typography",
+    "Illustration"
+  ],
+  "interests": [
+    {
+      "name": "beach volley",
+      "icon": "assets/icons/beachvolleyball.svg"
+    },
+    {
+      "name": "basketball",
+      "icon": "assets/icons/basket.svg"
+    },
+    {
+      "name": "icehockey",
+      "icon": "assets/icons/icehockey.svg"
+    },
+    {
+      "name": "squash",
+      "icon": "assets/icons/squash.svg"
+    },
+    {
+      "name": "foosball",
+      "icon": "assets/icons/kicker.svg"
+    },
+    {
+      "name": "video games",
+      "icon": "assets/icons/controller.svg"
+    },
+    {
+      "name": "travel",
+      "icon": "assets/icons/plane.svg"
+    },
+    {
+      "name": "guitar",
+      "icon": "assets/icons/guitar.svg"
+    },
+    {
+      "name": "draw",
+      "icon": "assets/icons/pencils.svg"
+    },
+    {
+      "name": "draw digital",
+      "icon": "assets/icons/graphictablet.svg"
+    },
+    {
+      "name": "photograph",
+      "icon": "assets/icons/camera.svg"
+    },
+    {
+      "name": "code",
+      "icon": "assets/icons/laptop.svg"
+    },
+    {
+      "name": "bicycle",
+      "icon": "assets/icons/bicycle.svg"
+    },
+    {
+      "name": "exhibitions",
+      "icon": "assets/icons/exhibition.svg"
+    },
+    {
+      "name": "electronics",
+      "icon": "assets/icons/arduino.svg"
+    }
+  ],
+  "references": [{
+    "name": "Holger Schif",
+    "position": "CTO at MobileX AG",
+    "reference": "Alex will successfully accomplish any task you entrust him with - autonomous, efficient and contentious. Thanks to him, our application shines in a fresh, modern and elaborate design. At the same time, he acquired an exceptional skill as a developer, hence i recently assigned him to lead internal trainings about JavaScript and React. I can highly recommend this creative technologist."
+  }]
+}
