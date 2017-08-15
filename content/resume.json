@@ -87,18 +87,22 @@
   "education": [
     {
       "institution": "Ludwig-Maximilians-Universität",
+      "at": "an der",
       "area": "Medieninformatik",
       "studyType": "B.Sc.",
-      "date": "April 2014",
+      "date": "Abgeschlossen im April 2014",
       "gpa": "1.6",
+      "thesisLabel": "Abschlussarbeit",
       "thesis": "Authentifizierung an mobilen Geräten: Sicherheit durch Randomisierung"
     },
     {
       "institution": "Hochschule München",
+      "at": "an der",
       "area": "Kommunikationsdesign",
       "studyType": "B.A.",
-      "date": "September 2009",
+      "date": "Abgeschlossen im September 2009",
       "gpa": "1.5",
+      "thesisLabel": "Abschlussarbeit",
       "thesis": "Navigation beim Fahrradfahren"
     }
   ],

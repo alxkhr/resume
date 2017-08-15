@@ -87,18 +87,22 @@
   "education": [
     {
       "institution": "Ludwig-Maximilians-Universität",
+      "at": "at the",
       "area": "Media Informatics",
       "studyType": "B.Sc.",
-      "date": "April 2014",
+      "date": "Completed in April 2014",
       "gpa": "1.6",
+      "thesisLabel": "Thesis",
       "thesis": "Authentication on Mobile Devices: Security by Randomization"
     },
     {
       "institution": "Munich University of Applied Sciences",
+      "at": "at the",
       "area": "Communication Design",
       "studyType": "B.A.",
-      "date": "September 2009",
+      "date": "Completed in September 2009",
       "gpa": "1.5",
+      "thesisLabel": "Thesis",
       "thesis": "Navigation when Cycling"
     }
   ],
