@@ -2,7 +2,7 @@
   "basics": {
     "name": "Alexander Kehr",
     "label": "Frontend Developer & UI/UX Designer",
-    "picture": "assets/alxkhr_cv_monochrom_50mm_300dpi.png",
+    "picture": "assets/alxkhr_cv_2019_560px.jpg",
     "email": "alex@alexanderkehr.de",
     "phone": "+49 1575 8158458",
     "website": "alexanderkehr.de",
@@ -44,9 +44,17 @@
   },
   "work": [
     {
+      "company": "eForce21",
+      "at": "bei",
+      "position": "IT Berater & Designer",
+      "website": "http://eforce21.com/",
+      "date": "Von Januar 2018 bis heute",
+      "summary": "Hauptsächlich Web-Frontend-Entwicklung sowie Software-Architektur-Beratung, Projektplanung und Schulungen bei diversen Kunden. Interne Design-Projekte und Vorträge."
+    },
+    {
       "company": "MobileX AG",
       "at": "bei",
-      "position": "UI/UX Designer & Developer",
+      "position": "Entwickler & Designer",
       "website": "https://www.mobilexag.de",
       "date": "Von Oktober 2014 bis Dezember 2017",
       "summary": "Web-basierte App-Entwicklung, Technologie Evaluierung und Schulungen, UI/UX Design und Konzeption."
@@ -74,14 +82,6 @@
       "website": "http://www.punchinpictures.de/",
       "date": "Von August 2007 bis Januar 2008",
       "summary": "Print und Web Design, Video Postproduktion, Visual FX."
-    },
-    {
-      "company": "C3 | wortundform",
-      "at": "bei",
-      "position": "Praktikant",
-      "website": "http://wortundform.de/",
-      "date": "Von Juli 2005 bis September 2005",
-      "summary": "Print Design, Druckvorstufe, Technisches Zeichnen."
     }
   ],
   "education": [
@@ -108,44 +108,49 @@
   ],
   "sideProjects": [
     {
-      "name": "lostmyjournal.de",
-      "website": "react-d3-travel-blog.netlify.com",
-      "code": "www.github.com/alxkhr/react-d3-travel-blog",
-      "date": "In Entwicklung",
-      "description": "Design und Entwicklung eines Reiseblogs. React als Basis, verfeinert mit D3 Elementen.",
-      "image": "assets/lostmyjournal.png"
+      "name": "Brainfix",
+      "website": "brainfix.netlify.com/",
+      "code": "github.com/alxkhr/brainfix-webapp",
+      "date": "laufend",
+      "description": "Notiz-App die mittels Tags hilft, sich besser zu erinnern. Persönliche Spielwiese für Technologien. Vue-Version im Live-Coding-Stream entwickelt.",
+      "image": "assets/brainfix.jpg"
     },
     {
       "name": "alexanderkehr.de",
       "website": "www.alexanderkehr.de",
-      "code": "www.github.com/alxkhr/alexanderkehr.de",
-      "date": "Mai 2017",
-      "description": "Neuentwicklung meiner privaten Homepage mit Verzicht auf Scripte. Reines HTML, SVG und CSS. Mustache und PostCSS zur Generierung.",
+      "code": "github.com/alxkhr/alexanderkehr.de",
+      "date": "November 2019",
+      "description": "Habe meine gut durchdachte persönliche Webseite zur Profilierung durch ein sarkatisches Mini-Kunstwerk ersetzt, das keiner braucht.",
       "image": "assets/alexanderkehr.jpg"
     },
     {
-      "name": "von-seidlein-roehrl.de",
-      "website": "www.von-seidlein-roehrl.de",
-      "code": "www.github.com/alxkhr/architecture-portfolio-website",
-      "date": "April 2017",
-      "description": "Design und Entwicklung einer Portfolio-Webseite für Architekten, basierend auf React und AVA zum Testen.",
-      "image": "assets/seidlein-roehrl.png"
-    },
-    {
-      "name": "conqr",
-      "design": "www.behance.net/gallery/47957445/conqr",
-      "date": "Januar 2017",
-      "description": "Game Design und Entwicklung eines Strategiespiels. Entwicklung in Java mit libGDX. Design mittels Blender und Photoshop.",
-      "image": "assets/conqr.png"
+      "name": "Smart Socket",
+      "website": "smartsocket.netlify.com/devices",
+      "code": "github.com/alxkhr/smartsocket-webapp",
+      "date": "Oktober 2019",
+      "description": "Teilnahme am Hackathon Stuttgart. Unser Team hat eine Steckdose entwickelt, die nur dann Geräte lädt, wenn CO2-armer Strom verfügbar ist. Dazu eine App um Lade-Strategien einzurichten.",
+      "image": "assets/smartsocket.png"
     }
   ],
   "skills": [
     {
-      "name": "Web Entwicklung",
+      "name": "Web development",
       "level": "different",
       "keywords": [
         {
-          "keyword": "ES2015/16/17",
+          "keyword": "JavaScript",
+          "level": "master"
+        },
+        {
+          "keyword": "TypeScript",
+          "level": "master"
+        },
+        {
+          "keyword": "HTML",
+          "level": "master"
+        },
+        {
+          "keyword": "CSS",
           "level": "master"
         },
         {
@@ -153,35 +158,35 @@
           "level": "master"
         },
         {
-          "keyword": "HTML5",
+          "keyword": "Redux",
           "level": "master"
         },
         {
-          "keyword": "SVG",
-          "level": "master"
-        },
-        {
-          "keyword": "CSS3",
-          "level": "master"
-        },
-        {
-          "keyword": "Node",
+          "keyword": "Angular",
           "level": "advanced"
         },
         {
-          "keyword": "Babel",
-          "level": "advanced"
-        },
-        {
-          "keyword": "Mobx",
-          "level": "advanced"
-        },
-        {
-          "keyword": "mustache",
+          "keyword": "NodeJS",
           "level": "advanced"
         },
         {
           "keyword": "Webpack",
+          "level": "advanced"
+        },
+        {
+          "keyword": "GraphQL",
+          "level": "advanced"
+        },
+        {
+          "keyword": "REST",
+          "level": "advanced"
+        },
+        {
+          "keyword": "PWA",
+          "level": "advanced"
+        },
+        {
+          "keyword": "RxJS",
           "level": "advanced"
         },
         {
@@ -197,23 +202,15 @@
           "level": "advanced"
         },
         {
+          "keyword": "Stylus",
+          "level": "advanced"
+        },
+        {
           "keyword": "PostCSS",
           "level": "advanced"
         },
         {
-          "keyword": "CSS Modules",
-          "level": "advanced"
-        },
-        {
-          "keyword": "React Native",
-          "level": "beginner"
-        },
-        {
-          "keyword": "Redux",
-          "level": "beginner"
-        },
-        {
-          "keyword": "JQuery",
+          "keyword": "Vue",
           "level": "beginner"
         },
         {
@@ -221,7 +218,7 @@
           "level": "beginner"
         },
         {
-          "keyword": "SystemJS",
+          "keyword": "ThreeJS",
           "level": "beginner"
         },
         {
@@ -231,16 +228,24 @@
         {
           "keyword": "AVA",
           "level": "beginner"
+        },
+        {
+          "keyword": "Spring Boot",
+          "level": "beginner"
+        },
+        {
+          "keyword": "Hibernate",
+          "level": "beginner"
         }
       ]
     },
     {
-      "name": "Sonstige Entwicklung",
+      "name": "Further development",
       "level": "different",
       "keywords": [
         {
           "keyword": "Java",
-          "level": "master"
+          "level": "advanced"
         },
         {
           "keyword": "Android",
@@ -255,21 +260,45 @@
           "level": "advanced"
         },
         {
-          "keyword": "PHP",
+          "keyword": "PostgreSQL",
+          "level": "advanced"
+        },
+        {
+          "keyword": "MongoDB",
           "level": "beginner"
         },
         {
           "keyword": "Python",
           "level": "beginner"
+        },
+        {
+          "keyword": "React Native",
+          "level": "beginner"
         }
       ]
     },
     {
-      "name": "Gestaltung",
+      "name": "Design",
       "level": "different",
       "keywords": [
         {
-          "keyword": "Photoshop CC",
+          "keyword": "Photoshop",
+          "level": "master"
+        },
+        {
+          "keyword": "Illustrator",
+          "level": "master"
+        },
+        {
+          "keyword": "Pencil",
+          "level": "master"
+        },
+        {
+          "keyword": "After Effects",
+          "level": "master"
+        },
+        {
+          "keyword": "Gimp",
           "level": "master"
         },
         {
@@ -277,23 +306,19 @@
           "level": "master"
         },
         {
-          "keyword": "After Effects CC",
+          "keyword": "XD",
           "level": "advanced"
         },
         {
-          "keyword": "Illustrator CC",
-          "level": "advanced"
-        },
-        {
-          "keyword": "Pencil",
-          "level": "advanced"
-        },
-        {
-          "keyword": "Gimp",
+          "keyword": "Procreate",
           "level": "advanced"
         },
         {
           "keyword": "Blender",
+          "level": "advanced"
+        },
+        {
+          "keyword": "Cinema 4D",
           "level": "beginner"
         },
         {
@@ -305,11 +330,7 @@
           "level": "beginner"
         },
         {
-          "keyword": "Axure",
-          "level": "beginner"
-        },
-        {
-          "keyword": "Experience Design CC",
+          "keyword": "Zeplin",
           "level": "beginner"
         }
       ]
@@ -335,21 +356,29 @@
   ],
   "buzzwords": [
     "Frontend",
-    "User Interface",
     "Web development",
     "Software architecture",
-    "Test-driven development",
+    "Agile",
+    "FDD",
+    "TDD",
     "Mobile",
-    "Interaction",
+    "Cross-platform",
+    "Accessibility",
+    "Privacy",
+    "Consulting",
+    "Trainings",
+    "UI",
+    "UX",
+    "Research",
     "Prototyping",
-    "User Experience",
+    "Personas",
+    "User Stories",
     "User-centered",
     "Atomic",
     "Responsive",
     "Styleguide",
-    "Corporate Design",
-    "Icons",
-    "2D Animation",
+    "Information Architecture",
+    "Animation",
     "Typography",
     "Illustration"
   ],
@@ -415,9 +444,11 @@
       "icon": "assets/icons/arduino.svg"
     }
   ],
-  "references": [{
-    "name": "Holger Schif",
-    "position": "CTO bei MobileX AG",
-    "reference": "Alex wird jede Aufgabe meistern, die Sie ihm geben - selbstständig, effizient und gewissenhaft. Durch ihn hat unsere Applikation ein frisches, modernes und gut durchdachtes Design. Parallel hat er sich als Entwickler ein bemerkenswertes Fachkönnen angeeignet, daher konnte ich ihn kürzlich gut einsetzen, um intern Schulungen über JavaScript und React zu leiten. Ich kann diesen kreativen Techie nur weiterempfehlen."
-  }]
+  "references": [
+    {
+      "name": "Holger Schif",
+      "position": "CTO bei MobileX AG",
+      "reference": "Alex wird jede Aufgabe meistern, die Sie ihm geben - selbstständig, effizient und gewissenhaft. Durch ihn hat unsere Applikation ein frisches, modernes und gut durchdachtes Design. Parallel hat er sich als Entwickler ein bemerkenswertes Fachkönnen angeeignet, daher konnte ich ihn kürzlich gut einsetzen, um intern Schulungen über JavaScript und React zu leiten. Ich kann diesen kreativen Techie nur weiterempfehlen."
+    }
+  ]
 }

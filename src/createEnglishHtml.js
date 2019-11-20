@@ -3,6 +3,7 @@ const path = require('path');
 const handlebars = require('handlebars');
 const helper = require('./helper.js');
 handlebars.registerHelper('drawSkillLevel', helper.drawSkillLevel);
+handlebars.registerHelper('convertToDec', helper.convertToDec);
 const resume = require('../content/resume-en.json');
 const labels = require('../content/labels-en.json');
 const template = fs.readFileSync(path.resolve(__dirname, './resume.handlebars'), 'utf-8');
@@ -13,5 +14,5 @@ fs.writeFile(
   function(err) {
     if (err) return console.log(err);
     console.log('handlebars: English HTML created');
-  }
+  },
 );

@@ -1,10 +1,26 @@
-html, body, div, h1, h2, h3, p, span, ul, ol, li, a, img, svg, section {
+html,
+body,
+div,
+h1,
+h2,
+h3,
+p,
+span,
+ul,
+ol,
+li,
+a,
+img,
+svg,
+section {
   position: relative;
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-size: 1rem;
   font-weight: normal;
 }
@@ -230,11 +246,10 @@ body {
 
 .project-list {
   padding-top: 0.5rem;
-  height: 27rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
+}
+
+.project-list > li:not(:first-child) {
+  padding-top: 2rem;
 }
 
 .icon-list {
@@ -256,11 +271,11 @@ body {
   text-align: center;
 }
 
-.labelled-icon:nth-child(10n+1) {
+.labelled-icon:nth-child(10n + 1) {
   margin-left: 0;
 }
 
-.labelled-icon:nth-child(10n+6) {
+.labelled-icon:nth-child(10n + 6) {
   margin-left: 3.2rem;
 }
 
@@ -269,7 +284,7 @@ body {
 }
 
 .skill::after {
-  content: "\00a0\00a0";
+  content: '\00a0\00a0';
 }
 
 .skill:last-child::after {
