@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "delete": "^1.0.1",
-    "handlebars": "^4.0.10",
+    "handlebars": "^4.5.3",
     "postcss-cli": "^4.1.0",
     "postcss-cssnext": "^2.11.0",
     "precss": "^1.4.0",
